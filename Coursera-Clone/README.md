@@ -1,6 +1,6 @@
-# React + Vite
+# Coursera Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is the clone of Coursera UI landing page
 
 Currently, two official plugins are available:
 
