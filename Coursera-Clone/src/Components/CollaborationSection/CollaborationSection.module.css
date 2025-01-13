@@ -1,0 +1,28 @@
+.container {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+}
+
+.heading {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.highlight {
+    color: #0056D2; /* Blue color */
+}
+
+.logoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.logoContainer img {
+    max-height: 60px; /* Adjust based on logo sizes */
+    object-fit: contain;
+}

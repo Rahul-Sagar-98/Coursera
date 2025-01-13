@@ -1,0 +1,63 @@
+.container {
+    display: flex;
+    background-color: #0056D2; /* Blue background */
+    padding: 40px;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textSection {
+    max-width: 50%;
+}
+
+.textSection h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.textSection p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 20px 0;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.saveButton,
+.teamButton {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.saveButton {
+    background-color: #fff;
+    color: #0056D2;
+    margin-right: 10px;
+}
+
+.teamButton {
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.imageSection {
+    max-width: 40%;
+}
+
+.heroImage {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.logo {
+    width: 150px;
+}

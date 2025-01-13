@@ -1,0 +1,71 @@
+.popularCertificates {
+    margin: 0 auto; /* Center the section horizontally */
+    max-width: 1295px; /* Adjust max-width as needed */
+    padding: 20px;
+  }
+  
+  .popularCertificates h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .popularCertificates p {
+    margin-bottom: 20px;
+  }
+  
+  .certificateGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+    grid-gap: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .certificateCard {
+    border: 1px solid #ccc;
+    padding: 20px;
+    position: relative; /* For positioning the "New AI Skills" badge */
+    flex: 1 1 300px;
+  }
+  
+  .newAISkillsBadge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: white;
+    color: black;
+    padding: 5px 5px;
+    border-radius: 5px;
+    border: 1px solid #007bff;
+  }
+  
+  .certificateCard img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .certificateDetails {
+    text-align: center;
+  }
+  
+  .provider {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .buildTowardDegree,
+  .certificateType {
+    color: #888;
+  }
+  
+  .viewAllButton {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }

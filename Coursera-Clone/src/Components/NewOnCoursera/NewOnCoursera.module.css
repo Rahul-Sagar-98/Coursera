@@ -1,0 +1,72 @@
+.newOnCoursera {
+    margin: 0 auto; /* Center the section horizontally */
+    max-width: 1295px; /* Adjust max-width as needed */
+    padding: 20px;
+  }
+  
+  .newOnCoursera h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .newOnCoursera p {
+    margin-bottom: 20px;
+  }
+  
+  .courseGrid {
+    display: flex;
+    justify-content: space-between;
+    grid-gap: 20px
+  }
+  
+  .courseCard {
+    border: 1px solid #ccc;
+    padding: 20px;
+    position: relative;
+    flex: 1 1 280px; /* Adjust card width as needed */
+    margin-bottom: 20px; /* Space between cards */
+  }
+  
+  .aiSkillsBadge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .courseImage {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .courseDetails {
+    text-align: center;
+  }
+  
+  .provider {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .buttonContainer {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .showMoreButton,
+  .viewAllButton {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .showMoreButton {
+    margin-right: 15px;
+  }
