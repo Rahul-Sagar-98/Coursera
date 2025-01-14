@@ -15,7 +15,7 @@
   
   .certificateGrid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /*Responsive grid*/
     grid-gap: 20px;
     display: flex;
     justify-content: space-between;
@@ -26,6 +26,7 @@
     padding: 20px;
     position: relative; /* For positioning the "New AI Skills" badge */
     flex: 1 1 300px;
+    border-radius: 10px;
   }
   
   .newAISkillsBadge {
@@ -41,8 +42,14 @@
   
   .certificateCard img {
     max-width: 100%;
-    height: auto;
     margin-bottom: 10px;
+
+    display: block; /* Remove any extra space below images caused by inline elements */
+    max-width: 100%; /* Ensures the image does not overflow its container */
+    width: 100%; /* Ensures the image fits the full width of its container */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 8px; /* Optional: Adds rounded corners to images */
+    object-fit: cover; /* Ensures the image fills its container nicely */
   }
   
   .certificateDetails {
@@ -68,4 +75,40 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+  }
+
+
+  @media (max-width: 768px) {
+    .certificateCard {
+      flex: 1 1 100%; /* Full width cards */
+      margin-bottom: 15px;
+    }
+  
+    .certificateGrid {
+      gap: 15px; /* Reduce spacing on mobile */
+    }
+  
+    .provider {
+      font-size: 0.9rem; /* Smaller size for mobile */
+    }
+  
+    .buildTowardDegree,
+    .certificateType {
+      font-size: 0.8rem; /* Smaller size for mobile */
+    }
+  
+    .viewAllButton {
+      width: 100%; /* Button takes full width */
+      margin-top: 10px;
+    }
+  }
+
+
+
+
+
+  @media (max-width: 768px) {
+    .popularCertificates {
+      display: none; /* Hide the entire section on mobile */
+    }
   }

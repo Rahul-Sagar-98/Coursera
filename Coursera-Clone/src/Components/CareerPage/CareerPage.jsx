@@ -14,8 +14,7 @@ function CareerPage() {
                     <span className={styles.navTab}>Business Analyst</span>
                     <span className={styles.navTab}>Cybersecurity</span>
                     <span className={styles.navTab}>Front-End Developer</span>
-                    <span className={styles.navTab}>UX Designer</span>
-                    <span className={styles.viewAll}>View all roles →</span>
+                    
                 </nav>
             </header>
 
@@ -70,6 +69,28 @@ function CareerPage() {
                             </p>
                         </div>
                     </div>
+                    <div className={styles.certificate}>
+                        <img src="./images/masters in business administration.png" alt="Google Project Management" />
+                        <div className={styles.certificateDetails}>
+                            <h3>Apple Project Management</h3>
+                            <p>Skills you'll gain: Project Management, Change Management, Strategic Thinking...</p>
+                            <p className={styles.reviews}>
+                                <strong>4.8 ★</strong> (111K reviews)
+                                <span>Beginner · Professional Certificate · 6 months</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div className={styles.certificate}>
+                        <img src="./images/google-project-management- certificate.png" alt="Google Project Management" />
+                        <div className={styles.certificateDetails}>
+                            <h3>Facebook Project Management</h3>
+                            <p>Skills you'll gain: Project Management, Change Management, Strategic Thinking...</p>
+                            <p className={styles.reviews}>
+                                <strong>4.8 ★</strong> (111K reviews)
+                                <span>Beginner · Professional Certificate · 6 months</span>
+                            </p>
+                        </div>
+                    </div>
                 </div>
                 <p className={styles.exploreMore}>Explore all certificates →</p>
             </section>
@@ -81,11 +102,10 @@ function CareerPage() {
                     alt="Testimonial"
                     className={styles.testimonialImage}
                 />
-                <blockquote>
+                <p>
                     "Earning my Google Project Management: Professional Certificate is one of the biggest
                     accomplishments I’ve made in my education, and it was a key stepping stone to my new career."
-                </blockquote>
-                <p className={styles.author}>– Adrienne</p>
+                </p>
             </section>
         </div>
     );

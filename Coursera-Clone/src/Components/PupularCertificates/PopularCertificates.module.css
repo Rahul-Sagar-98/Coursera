@@ -1,134 +1,135 @@
-/* .container {
+.container {
     text-align: center;
     padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: start;
+    margin-left: 30px;
+  }
+  
+  .subheading {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 30px;
+    text-align: left;
+    margin-left: 30px;
   }
   
   .cardContainer {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 20px;
-    margin: 20px 0;
   }
   
   .card {
+    background: #fff;
     border: 1px solid #ddd;
     border-radius: 8px;
-    padding: 16px;
-    background: #fff;
-    position: relative;
+    width: 300px;
+    text-align: left;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
   
   .cardImage {
     width: 100%;
-    border-radius: 8px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
   }
   
-  .newSkill {
-    position: absolute;
-    top: 8px;
-    left: 8px;
-    background: #f00;
-    color: #fff;
-    padding: 4px 8px;
-    font-size: 12px;
-    border-radius: 4px;
-  }
-  
-  .degree {
-    color: #0073e6;
+  .cardTitle {
+    font-size: 18px;
     font-weight: bold;
+    margin: 15px 10px 5px;
+  }
+  
+  .cardSubtitle {
+    font-size: 14px;
+    color: #777;
+    margin: 0 10px 10px;
+  }
+  
+  .cardLink {
+    font-size: 14px;
+    color: #0056d2;
+    margin: 0 10px 10px;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .cardType {
+    font-size: 14px;
+    color: #555;
+    margin: 0 10px 10px;
   }
   
   .buttons {
     margin-top: 20px;
+    display: flex;
+    justify-content: left;
+    margin-left: 20px;
   }
   
-  .btn {
+  .button {
+    background: #0056d2;
+    color: #fff;
     padding: 10px 20px;
-    margin: 5px;
     border: none;
     border-radius: 4px;
+    margin: 0 5px;
     cursor: pointer;
+    font-size: 14px;
   }
   
-  .secondary {
-    background: #ddd;
-    color: #333;
+  .button:hover {
+    background: #0041a8;
   }
+
+  .lastPara{
+    font-size: 14px;
+    text-align: left;
+    margin-top: 48px;
+    margin-bottom: 48px;
+  }
+
+
+
+
+
+  @media (max-width: 768px) {
+    .cardContainer {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); /* Display two cards per row */
+      gap: 20px; /* Adjust spacing between cards */
+      justify-items: center; /* Center the cards */
+    }
   
-  .btn:hover {
-    background: #0073e6;
-    color: #fff;
-  } */
-
-
-
-
-
-
-
-
-
-
-
-  .popularCertificates {
-    margin-top: 40px;
-    margin: 0 auto; /* Add margin: 0 auto; for center alignment */
-    max-width: 1295px; /* Adjust max-width as needed */
-    padding: 20px; /* Add padding for spacing */
-  }
+    .card {
+      width: 100%; /* Ensure cards take up full width */
+      max-width: 320px; /* Optionally restrict the max-width */
+    }
   
-  .popularCertificates h2 {
-    font-size: 2rem;
-    margin-bottom: 10px;
-  }
+    .button {
+      width: 100%; /* Make buttons full width on mobile */
+      padding: 12px;
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
   
-  .popularCertificates p {
-    margin-bottom: 20px;
-  }
-  
-  .certificateGrid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 20px;
-  }
-  
-  .certificateCard {
-    border: 1px solid #ccc;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .certificateCard img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 10px;
-  }
-  
-  .viewAllButton {
-    display: block;
-    margin-top: 20px;
-    padding: 10px 20px;
-    color: #fff;
-    border: 1px solid #007bff;
-    border-radius: 5px;
-    cursor: pointer;
-    color: #007bff;
-  }
+    .lastPara {
+      font-size: 12px; /* Adjust font size for mobile */
+    }
 
-  .buttonContainer {
-    display: flex;
-    justify-content: flex-start;
-  }
-  
-  .showMoreButton {
-    display: block;
-    margin-top: 20px;
-    margin-right: 15px;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+    .heading{
+      text-align: center;
+    }
+
+    .subheading{
+      text-align: center;
+    }
   }

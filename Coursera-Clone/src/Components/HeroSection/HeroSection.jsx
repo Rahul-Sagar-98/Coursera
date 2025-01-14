@@ -4,7 +4,7 @@ function HeroSection() {
     return (
         <div className={Herocss.container}>
             <div className={Herocss.textSection}>
-                <img className={Herocss.logo} src="./images/coursera-plus-logo.svg" alt="Coursera Plus" />
+                <img className={Herocss.logo} src="./images/coursera-plus.png" alt="Coursera Plus" />
                 <h1>New year. Big goals. Bigger savings.</h1>
                 <p>
                     Reach your career goals with a year of unlimited access to 10,000+ learning programs 

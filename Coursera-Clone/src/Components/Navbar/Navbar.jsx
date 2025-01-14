@@ -5,7 +5,9 @@ const Navbar = () => {
     <nav className={styles.navbar}>
       <div className={styles.leftSection}>
         {/* Logo */}
-        <div className={styles.logo}>coursera</div>
+        <div className={styles.logo}>
+          <img src="./images/logo.png"  alt="Coursera logo" />
+        </div>
 
         {/* Explore Button */}
         <button className={styles.exploreBtn}>

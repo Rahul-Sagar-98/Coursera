@@ -1,0 +1,122 @@
+.footer {
+    background-color: #f8f8f8;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .topSection,
+  .middleSection {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    margin-top: 60px;
+  }
+
+  .linkGroup {
+    flex: 1;
+    margin-right: 20px; /* Added for consistent spacing */
+  }
+  
+  .heading {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0 !important;
+  }
+
+  ul li {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #555;
+  }
+
+  .storeLinks {
+    flex: 1; /* Ensures alignment with other columns */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Adjusted alignment for consistency */
+    gap: 60px;
+    margin-left: auto; /* Pushes store links to the far right */
+  }
+
+  .storeLinks img {
+    width: 120px;
+  }
+
+  .bottomSection {
+    display: flex;
+    justify-content: space-between; /* Social icons aligned with copyright text */
+    align-items: center;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+    font-size: 14px;
+  }
+  
+  .socialIcons {
+    display: flex;
+    gap: 10px;
+  }
+
+  .icon {
+    width: 30px;
+    height: 30px;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 14px;
+  }
+
+  .section {
+    display: flex;
+    justify-content: space-between; /* Ensures consistent spacing between sections */
+    margin-bottom: 30px;
+  }
+  
+  .socialIcons {
+    display: flex;
+    gap: 10px; /* Consistent spacing between social icons */
+  }
+  
+ 
+  
+  @media (max-width: 768px) {
+    .topSection,
+    .middleSection {
+      flex-direction: column; /* Stack sections vertically */
+      gap: 20px; /* Add spacing between sections */
+    }
+  
+    .linkGroup {
+      margin-right: 0; /* Remove right margin for smaller screens */
+      margin-bottom: 20px; /* Add spacing between stacked sections */
+    }
+  
+    .storeLinks {
+      margin-left: 0; /* Align store links with other sections */
+      align-items: center; /* Center align images */
+    }
+  
+    .storeLinks img {
+      width: 100px; /* Adjust image size for mobile view */
+      margin-bottom: 10px; /* Add spacing between images */
+    }
+  
+    .bottomSection {
+      flex-direction: column; /* Stack social icons and copyright text */
+      align-items: center; /* Center-align content */
+      text-align: center;
+      gap: 10px; /* Add spacing between items */
+    }
+  
+    .socialIcons {
+      gap: 15px; /* Adjust spacing between social icons */
+    }
+  }

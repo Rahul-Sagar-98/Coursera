@@ -9,6 +9,7 @@ import FreeCourses from "./Components/FreeCourses/FreeCourses"
 import DegreePrograms from "./Components/DegreePrograms/DegreePrograms"
 import TopDegrees from "./Components/TopDegrees/TopDegrees"
 import ExploreCoursera from "./Components/ExploreCoursera/ExploreCoursera"
+import Footer from "./Components/Footer/Footer"
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
       <DegreePrograms/>
       <TopDegrees/>
       <ExploreCoursera/>
+      <Footer/>
     </>
   )
 }

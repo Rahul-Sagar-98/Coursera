@@ -4,8 +4,10 @@
     margin: 0 auto;
     padding: 20px;
     line-height: 1.6;
-    max-width: 1200px;
+    max-width: 1295px;
     margin-top: 50px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
 }
 
 .header {
@@ -18,6 +20,11 @@
     font-weight: bold;
     margin-bottom: 15px;
     color: #333;
+    text-align: start;
+}
+
+h3 {
+    font-family: 5px;
 }
 
 .navTabs {
@@ -80,7 +87,7 @@
 .salaryBar {
     display: flex;
     justify-content: space-between;
-    padding: 15px;
+    padding: 5px;
     border: 1px solid #ccc;
     border-radius: 8px;
     margin-bottom: 15px;
@@ -95,7 +102,7 @@
 
 .jobStats {
     margin-top: 15px;
-    font-size: 14px;
+    font-size: 10px;
     color: #555;
 }
 
@@ -112,17 +119,26 @@
 
 .certificatesList {
     display: flex;
-    gap: 25px;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: flex-start;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px; /* Set spacing between the cards */
+    align-items: flex-start; /* Align cards at the start vertically */
+    justify-content: flex-start; 
 }
 
 .certificate {
-    width: 48%;
+    flex: 1 1 calc(48% - 10px);
+    /* width: 48%; */
     background: #fff;
     border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
     overflow: hidden;
+    text-align: left;
 }
 
 .certificate img {
@@ -164,20 +180,22 @@
 }
 
 .testimonial {
-    text-align: center;
+    text-align: start;
     padding: 30px;
     background: #fff;
     border-top: 1px solid #ddd;
     margin-top: 40px;
     border-radius: 8px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
 }
 
 .testimonialImage {
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     margin-bottom: 15px;
+    margin-right: 10px;
     object-fit: cover;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
 }
@@ -193,4 +211,62 @@ blockquote {
     font-size: 14px;
     color: #777;
     font-weight: 500;
+}
+
+
+
+
+
+.certificatesList {
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    gap: 15px;
+} 
+
+.certificate {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: left; /* Align content to the left */
+}
+
+.certificate img {
+    width: 100%; /* Ensure the image fits the card */
+    height: auto;
+    display: block;
+}
+
+.certificateDetails {
+    padding: 20px;
+}
+
+
+
+
+@media (max-width: 480px) {
+    .certificatesList {
+        grid-template-columns: repeat(2, 1fr); /* Display 2 cards per row */
+    }
+
+    .certificate {
+        width: 100%; /* Ensure certificates are full width */
+    }
+
+    .certificateDetails h3 {
+        font-size: 16px; /* Adjust font size */
+    }
+
+    .certificateDetails p {
+        font-size: 12px; /* Adjust font size */
+    }
+
+    .reviews {
+        font-size: 12px;
+    }
+
+    .exploreMore {
+        font-size: 12px;
+    }
 }
