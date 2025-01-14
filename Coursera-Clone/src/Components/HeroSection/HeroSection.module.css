@@ -1,7 +1,7 @@
 .container {
     display: flex;
     background-color: #0056D2; /* Blue background */
-    padding: 40px;
+    padding-left: 40px;
     color: #fff;
     justify-content: space-between;
     align-items: center;
@@ -55,9 +55,60 @@
 
 .heroImage {
     width: 100%;
-    border-radius: 8px;
+    height: 100%;
 }
 
 .logo {
     width: 150px;
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Stack text and image vertically */
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .textSection {
+        max-width: 100%;
+        text-align: center; /* Center-align text */
+        margin-bottom: 20px; /* Add space between text and image */
+    }
+
+    .textSection h1 {
+        font-size: 30px; /* Adjust title font size */
+    }
+
+    .textSection p {
+        font-size: 16px; /* Adjust paragraph font size */
+        margin: 15px 0; /* Adjust spacing */
+    }
+
+    .buttons {
+        margin-top: 15px;
+    }
+
+    .saveButton,
+    .teamButton {
+        font-size: 14px; /* Adjust button font size */
+        padding: 8px 15px; /* Adjust button padding */
+    }
+
+    .imageSection {
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .heroImage {
+        width: 100%;
+        height: auto; /* Ensure image scales correctly */
+    }
+
+    .logo {
+        width: 120px; /* Adjust logo size for mobile */
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
 }

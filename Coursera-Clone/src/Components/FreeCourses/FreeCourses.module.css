@@ -8,12 +8,16 @@
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 10px;
+  text-align: left;
+  margin-left: 30px;
 }
 
 .subheading {
   font-size: 16px;
   color: #555;
   margin-bottom: 30px;
+  text-align: left;
+  margin-left: 30px;
 }
 
 .cardContainer {
@@ -71,6 +75,9 @@
 
 .buttons {
   margin-top: 20px;
+  display: flex;
+  justify-content: left;
+  margin-left: 20px;
 }
 
 .button {
@@ -84,6 +91,45 @@
   font-size: 14px;
 }
 
-.button:hover {
-  background: #0041a8;
+
+
+
+@media (max-width: 768px) {
+  .cardContainer {
+    /* Set grid for mobile with 2 cards per row */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 cards per row */
+    gap: 20px; /* Adjust spacing between cards */
+  }
+
+  .card {
+    width: 100%; /* Ensure cards take full width in grid */
+    box-sizing: border-box;
+  }
+
+  .heading {
+    font-size: 20px; /* Adjust heading font size */
+    text-align: center;
+  }
+
+  .subheading {
+    font-size: 14px; /* Adjust subheading font size */
+    text-align: center;
+  }
+
+  .cardTitle {
+    font-size: 16px; /* Adjust card title font size */
+  }
+
+  .cardSubtitle,
+  .cardFooter {
+    font-size: 12px; /* Adjust font size for smaller screens */
+  }
+
+  .button{
+    width: 100%; /* Make buttons full width on mobile */
+      padding: 12px;
+      font-size: 16px;
+      margin-bottom: 10px;
+  }
 }
