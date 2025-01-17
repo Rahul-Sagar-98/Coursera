@@ -1,0 +1,71 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #f8fafc;
+    padding: 2rem 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+  
+  .textSection {
+    text-align: left;
+    max-width: 800px;
+    margin-bottom: 3rem;
+  }
+  
+  .heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1rem;
+    line-height: 1.4;
+  }
+  
+  .subtext {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 2rem;
+  }
+  
+  .primaryButton {
+    padding: 0.75rem 1.5rem;
+    background-color: #0056d2;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .smallText {
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .link {
+    color: #0056d2;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .logoGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem;
+    max-width: 500px;
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 4rem;
+    padding-right: 3rem;
+  }
+  
+  .logoItem img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }

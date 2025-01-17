@@ -1,0 +1,112 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 3rem 4rem; 
+  }
+  
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .imageSection {
+    flex: 1;
+    position: relative;
+  }
+  
+  .image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .textSection {
+    flex: 0.7; 
+    margin-left: 2rem;
+  }
+  
+  .heading {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1rem;
+    line-height: 1.4; 
+  }
+  
+  .subtext {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1.5rem;
+  }
+  
+  .joinButton {
+    padding: 0.75rem 1.5rem;
+    background-color: #0056d2;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .footer {
+    margin-top: 2rem;
+    width: 100%;
+    text-align: left;
+    font-size: 0.9rem;
+    color: #666;
+    border-top: 1px solid #ddd;
+    padding-top: 1rem;
+  }
+  
+  .footerText {
+    line-height: 1.5;
+    white-space: pre-line;
+  }
+
+
+
+
+  @media (max-width: 768px) {
+    .container {
+      padding: 2rem 1rem; /* Adjust padding for mobile view */
+    }
+  
+    .content {
+      flex-direction: column; /* Stack content in a column */
+      align-items: center;
+    }
+  
+    .imageSection {
+      margin-bottom: 2rem; /* Add spacing between image and text section */
+    }
+  
+    .textSection {
+      flex: 1; /* Make text section take full width */
+      margin-left: 0; /* Remove margin for mobile view */
+      text-align: center; /* Center align text */
+    }
+  
+    .heading {
+      font-size: 1.8rem; /* Adjust font size for mobile */
+    }
+  
+    .subtext {
+      font-size: 0.9rem; /* Adjust font size for mobile */
+    }
+  
+    .joinButton {
+      width: 100%; /* Make button take full width */
+    }
+  
+    .footer {
+      font-size: 0.8rem; /* Adjust font size for footer text */
+      text-align: center; /* Center align footer text */
+    }
+  }

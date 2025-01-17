@@ -4,7 +4,7 @@ const TopDegrees = () => {
   const degreeCards = [
     {
       id: 1,
-      image: "./images/birla institute of technology.png", // Replace with actual image URL
+      image: "./images/birla institute of technology.png", 
       institution: "Birla Institute of Technology & Science",
       title: "Bachelor of Science in Computer Science",
       linkText: "Earn a degree",
@@ -12,7 +12,7 @@ const TopDegrees = () => {
     },
     {
       id: 2,
-      image: "./images/Indian institute of technology.png", // Replace with actual image URL
+      image: "./images/Indian institute of technology.png", 
       institution: "Indian Institute of Technology...",
       title: "Bachelor of Science in Data Science & AI",
       linkText: "Earn a degree",
@@ -20,7 +20,7 @@ const TopDegrees = () => {
     },
     {
       id: 3,
-      image: "./images/Indian statistical institute.png", // Replace with actual image URL
+      image: "./images/Indian statistical institute.png", 
       institution: "Indian Statistical Institute",
       title: "Postgraduate Diploma in Applied Statistics",
       linkText: "Earn a degree",
@@ -28,7 +28,7 @@ const TopDegrees = () => {
     },
     {
       id: 4,
-      image: "./images/IIT roorkee.png", // Replace with actual image URL
+      image: "./images/IIT roorkee.png", 
       institution: "IIT Roorkee",
       title: "Executive MBA",
       linkText: "Earn a degree",

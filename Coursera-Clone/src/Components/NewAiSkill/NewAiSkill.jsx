@@ -3,7 +3,7 @@ import styles from './NewAiSkill.module.css';
 const certificates = [
   {
     title: "Google Cybersecurity",
-    image: "./images/googleCyberSecurity.png", // Replace with actual image path
+    image: "./images/googleCyberSecurity.png", 
   },
   {
     title: "Google Digital Marketing & E-commerce",

@@ -10,7 +10,7 @@ const FreeCourses = () => {
       <div className={styles.cardContainer}>
         <div className={styles.card}>
           <img
-            src="./images/introduction-to-statistics.png" // Replace with actual image URL
+            src="./images/introduction-to-statistics.png" 
             alt="Stanford University"
             className={styles.cardImage}
           />
@@ -21,7 +21,7 @@ const FreeCourses = () => {
         </div>
         <div className={styles.card}>
           <img
-            src="./images/algorithem.png" // Replace with actual image URL
+            src="./images/algorithem.png" 
             alt="Princeton University"
             className={styles.cardImage}
           />
@@ -32,7 +32,7 @@ const FreeCourses = () => {
         </div>
         <div className={styles.card}>
           <img
-            src="./images/introduction to generative ai.png" // Replace with actual image URL
+            src="./images/introduction to generative ai.png" 
             alt="Google Cloud"
             className={styles.cardImage}
           />
@@ -42,7 +42,7 @@ const FreeCourses = () => {
         </div>
         <div className={styles.card}>
           <img
-            src="./images/financial market.png" // Replace with actual image URL
+            src="./images/financial market.png" 
             alt="Yale University"
             className={styles.cardImage}
           />
