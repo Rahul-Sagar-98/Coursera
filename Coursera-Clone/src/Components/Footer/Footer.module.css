@@ -39,9 +39,9 @@
     flex: 1; /* Ensures alignment with other columns */
     display: flex;
     flex-direction: column;
-    justify-content: flex-start; 
+    justify-content: flex-start; /* Adjusted alignment for consistency */
     gap: 60px;
-    margin-left: auto; 
+    margin-left: auto; /* Pushes store links to the far right */
   }
 
   .storeLinks img {

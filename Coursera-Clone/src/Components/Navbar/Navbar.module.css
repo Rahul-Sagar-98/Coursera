@@ -132,7 +132,7 @@
     }
   
     .searchBtn {
-      display: block; 
+      display: block; /* Ensure the search button is visible */
       font-size: 20px;
       color: #333;
       background: none;
