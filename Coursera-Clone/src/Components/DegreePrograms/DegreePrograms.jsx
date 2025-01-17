@@ -10,7 +10,7 @@ const DegreePrograms = () => {
       <div className={styles.cardContainer}>
         <div className={styles.card}>
           <img
-            src="./images/masters in electrical engineering.png" // Replace with actual image URL
+            src="./images/masters in electrical engineering.png"  
             alt="University of Colorado Boulder"
             className={styles.cardImage}
           />
@@ -20,7 +20,7 @@ const DegreePrograms = () => {
         </div>
         <div className={styles.card}>
           <img
-            src="./images/masters in engineering management.png" // Replace with actual image URL
+            src="./images/masters in engineering management.png" 
             alt="University of Colorado Boulder"
             className={styles.cardImage}
           />
@@ -30,7 +30,7 @@ const DegreePrograms = () => {
         </div>
         <div className={styles.card}>
           <img
-            src="./images/mastres in computer science.png" // Replace with actual image URL
+            src="./images/mastres in computer science.png" 
             alt="University of Colorado Boulder"
             className={styles.cardImage}
           />
@@ -40,7 +40,7 @@ const DegreePrograms = () => {
         </div>
         <div className={styles.card}>
           <img
-            src="./images/masters in business administration.png" // Replace with actual image URL
+            src="./images/masters in business administration.png" 
             alt="University of Illinois Urbana-Champaign"
             className={styles.cardImage}
           />

@@ -1,6 +1,6 @@
 .popularCertificates {
-    margin: 0 auto; /* Center the section horizontally */
-    max-width: 1295px; /* Adjust max-width as needed */
+    margin: 0 auto; 
+    max-width: 1295px; 
     padding: 20px;
   }
   
@@ -44,12 +44,12 @@
     max-width: 100%;
     margin-bottom: 10px;
 
-    display: block; /* Remove any extra space below images caused by inline elements */
-    max-width: 100%; /* Ensures the image does not overflow its container */
-    width: 100%; /* Ensures the image fits the full width of its container */
-    height: auto; /* Maintains aspect ratio */
-    border-radius: 8px; /* Optional: Adds rounded corners to images */
-    object-fit: cover; /* Ensures the image fills its container nicely */
+    display: block; 
+    max-width: 100%; 
+    width: 100%; 
+    height: auto; 
+    border-radius: 8px; 
+    object-fit: cover; 
   }
   
   .certificateDetails {

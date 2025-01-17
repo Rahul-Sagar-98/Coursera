@@ -87,17 +87,17 @@
     .cardContainer {
       display: grid;
       grid-template-columns: repeat(2, 1fr); /* Display two cards per row */
-      gap: 20px; /* Space between the cards */
-      justify-items: center; /* Center cards */
+      gap: 20px; 
+      justify-items: center; 
     }
   
     .card {
-      width: 100%; /* Full width for cards */
-      max-width: 320px; /* Optional, adjust based on preference */
+      width: 100%; 
+      max-width: 320px; 
     }
   
     .button {
-      width: 100%; /* Make buttons full width */
+      width: 100%; 
       padding: 12px;
       font-size: 16px;
       margin-bottom: 10px;

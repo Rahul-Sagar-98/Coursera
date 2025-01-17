@@ -125,8 +125,8 @@ h3 {
 
     display: flex;
     flex-wrap: wrap;
-    gap: 15px; /* Set spacing between the cards */
-    align-items: flex-start; /* Align cards at the start vertically */
+    gap: 15px; 
+    align-items: flex-start;
     justify-content: flex-start; 
 }
 
@@ -229,7 +229,7 @@ blockquote {
     border-radius: 8px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    text-align: left; /* Align content to the left */
+    text-align: left; 
 }
 
 .certificate img {
